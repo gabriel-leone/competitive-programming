@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+  int b, c;
+  cin >> b >> c;
+  b = (b + c) / 2;
+  if (b >= 7)
+  {
+    cout << "Aprovado";
+  }
+  else if (b >= 4)
+  {
+    cout << "Recuperacao";
+  }
+  else
+  {
+    cout << "Reprovado";
+  }
+}
